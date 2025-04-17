@@ -5,7 +5,8 @@ class Program // Identificação do programa
     static void Main() // Resposta de Acordo com oq estiver dentro.
     {
         // Printa no cmd
-        Console.Write("Calculadora De médias"); 
+        Console.Write("Calculadora De médias");
+        Console.WriteLine();
         
         // Notas aluno1
         Console.Write("Digite a primeira do primeiro aluno ");
@@ -36,8 +37,9 @@ class Program // Identificação do programa
         double resultado1 = mais1 / 5;
         double mais2 = nota1aluno2 + nota2aluno2 + nota3aluno2 + nota4aluno2 + nota5aluno2;
         double resultado2 = mais2 / 5;
-        
-        
+        // média dos 2
+        double calculomedia = resultado1 + resultado2;
+        double mediageral = (calculomedia / 2);
         
         // Exibição
         Console.WriteLine();
@@ -47,6 +49,6 @@ class Program // Identificação do programa
         Console.WriteLine("A média do 1° aluno é " + resultado1);
         Console.WriteLine("A média do 2° aluno é " + resultado2);
         
-        
+        Console.WriteLine("Média da sala: " + mediageral);
     }
 }
