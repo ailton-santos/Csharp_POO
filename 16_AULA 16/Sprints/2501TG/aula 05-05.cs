@@ -33,8 +33,8 @@ class Program
         Console.WriteLine("\nResultado final:");
         for(int i = 0; i < 3; i++)
         {
-            Console.WriteLine($"Aluno {nomes[i]} tem a nota {nota1[i]} e {nota2[i]}");
-            Console.WriteLine($"Aluno {nomes[i]} foi {verificarSituacao}");
+            Console.WriteLine($"Aluno {nomes[i]} tem a nota {nota1[i]} e {nota2[i]}.");
+            Console.WriteLine($"Aluno {nomes[i]} foi {verificarSituacao(medias[i])}.");
         }
     }
     
@@ -59,5 +59,4 @@ static string verificarSituacao(float media) /*static é a mesma coisa que funç
             else
                 return "Reprovado";
 }
-
 }
