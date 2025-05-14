@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Senhas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            background-color: #f3f4f6;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            width: 350px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            background: linear-gradient(to right, #3b82f6, #6366f1);
+            color: white;
+            padding: 15px;
+            margin: -30px -30px 20px;
+            border-radius: 10px 10px 0 0;
+        }
+        label, input[type="checkbox"] {
+            margin: 10px 0;
+        }
+        input[type="range"] {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #resultado {
+            margin-top: 20px;
+            background-color: #e5e7eb;
+            padding: 10px;
+            border-radius: 5px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Gerador de Senhas</h2>
+
+        <label>Comprimento:</label>
+        <input type="range" id="length" min="4" max="32" value="12" oninput="updateLength()">
+        <div id="lengthValue" style="font-weight: bold; color: #2563eb;">12</div>
+
+        <div>
+            <input type="checkbox" id="uppercase" checked> Maiúsculas<br>
+            <input type="checkbox" id="lowercase" checked> Minúsculas<br>
+            <input type="checkbox" id="numbers" checked> Números<br>
+            <input type="checkbox" id="special"> Especiais<br>
+        </div>
+
+        <button onclick="gerarSenha()">Gerar Senha</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        function updateLength() {
+            const length = document.getElementById('length').value;
+            document.getElementById('lengthValue').innerText = length;
+        }
+
+        function gerarSenha() {
+            const length = document.getElementById('length').value;
+            const uppercase = document.getElementById('uppercase').checked;
+            const lowercase = document.getElementById('lowercase').checked;
+            const numbers = document.getElementById('numbers').checked;
+            const special = document.getElementById('special').checked;
+
+            const url = `/GeradorSenha?length=${length}&uppercase=${uppercase}&lowercase=${lowercase}&numbers=${numbers}&special=${special}`;
+
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) throw new Error("Erro ao gerar senha");
+                    return response.text();
+                })
+                .then(senha => {
+                    document.getElementById('resultado').innerText = senha;
+                })
+                .catch(error => {
+                    document.getElementById('resultado').innerText = "Erro: " + error.message;
+                });
+        }
+
+        updateLength();
+    </script>
+</body>
+</html>

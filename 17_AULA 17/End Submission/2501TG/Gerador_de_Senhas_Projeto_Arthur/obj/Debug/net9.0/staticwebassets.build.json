@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "dZVWmT1bpJgTG47yIWv4zCS5u59zbr3raKK+AH3OkDI=",
+  "Source": "GeradorSenhaApi",
+  "BasePath": "_content/GeradorSenhaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GeradorSenhaApi\\wwwroot",
+      "Source": "GeradorSenhaApi",
+      "ContentRoot": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\",
+      "BasePath": "_content/GeradorSenhaApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\obj\\Debug\\net9.0\\compressed\\8mndesnrbe-2ztjsd3xws.gz",
+      "SourceId": "GeradorSenhaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/GeradorSenhaApi",
+      "RelativePath": "index#[.{fingerprint=2ztjsd3xws}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "aojbnjltda",
+      "Integrity": "ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\index.html",
+      "SourceId": "GeradorSenhaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\",
+      "BasePath": "_content/GeradorSenhaApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ztjsd3xws",
+      "Integrity": "goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.2ztjsd3xws.html",
+      "AssetFile": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\obj\\Debug\\net9.0\\compressed\\8mndesnrbe-2ztjsd3xws.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000938086304"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 17:45:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ztjsd3xws"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU="
+        }
+      ]
+    },
+    {
+      "Route": "index.2ztjsd3xws.html",
+      "AssetFile": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 17:45:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ztjsd3xws"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU="
+        }
+      ]
+    },
+    {
+      "Route": "index.2ztjsd3xws.html.gz",
+      "AssetFile": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\obj\\Debug\\net9.0\\compressed\\8mndesnrbe-2ztjsd3xws.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 17:45:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ztjsd3xws"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\obj\\Debug\\net9.0\\compressed\\8mndesnrbe-2ztjsd3xws.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000938086304"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 17:45:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 17:45:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-goF2xqnwDV+eexwK4lKMWj63b12+vGwOFGBahvO8UHU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "H:\\projeto c#\\Gerador_de_Senhas_Projeto_Arthur\\obj\\Debug\\net9.0\\compressed\\8mndesnrbe-2ztjsd3xws.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 17:45:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppSBJHFFrlvrefsMFFVOkKMHYwLws2vWggpFwTcEZcg="
+        }
+      ]
+    }
+  ]
+}
